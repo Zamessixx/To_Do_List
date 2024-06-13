@@ -33,3 +33,5 @@ def delete_task(task_id):
     cursor.execute("DELETE FROM tasks WHERE id=?", (task_id,))
     conn.commit()
     conn.close()
+
+
